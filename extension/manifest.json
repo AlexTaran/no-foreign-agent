@@ -3,6 +3,11 @@
   "description": "Remove foreign agent notification from websites",
   "version": "1.0",
   "manifest_version": 3,
+  "icons": {
+    "32": "icon.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "content_scripts": [
    {
      "matches": ["*://meduza.io/*"],
