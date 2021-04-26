@@ -1,2 +1,5 @@
 # no-foreign-agent
-Remove foreign agent notification from websites
+
+Chrome extension.
+
+Removes foreign agent notification from websites.

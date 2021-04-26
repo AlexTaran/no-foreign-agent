@@ -1,0 +1,12 @@
+{
+  "name": "No Foreign Agents",
+  "description": "Remove foreign agent notification from websites",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+   {
+     "matches": ["*://meduza.io/*"],
+     "js": ["removeForeignAgent.js"]
+   }
+  ]
+}
